@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws Pet Adoption</title>
+</head>
+
+<body>
+
+    <!-- Navigation using HTML bookmarks -->
+    <nav>
+        <a href="#home">HOME</a> |
+        <a href="#gallery">GALLERY</a> |
+        <a href="#video">VIDEO</a> |
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <hr>
+
+    <!-- Home page section -->
+    <section id="home">
+        <h1>Happy Paws Pet Adoption</h1>
+
+        <p>
+            Welcome to Happy Paws! We help loving animals find safe and caring
+            homes. Explore our available pets, watch our adoption video, and
+            contact us if you are interested in adopting a new companion.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Pictures section -->
+    <section id="gallery">
+        <h2>Meet Our Pets</h2>
+
+        <img src="images/dog.svg"
+             alt="A friendly dog available for adoption"
+             width="300">
+
+        <img src="images/cat.svg"
+             alt="A playful cat available for adoption"
+             width="300">
+
+        <img src="images/bird.svg"
+             alt="A colorful bird available for adoption"
+             width="300">
+    </section>
+
+    <hr>
+
+    <!-- Video section -->
+    <section id="video">
+        <h2>Pet Adoption Video</h2>
+
+        <p>Watch this short video to learn more about adopting a pet.</p>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/1B4jQJJeS7Y"
+            title="Pet adoption video"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <hr>
+
+    <!-- Contact form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>Please enter your information and send us a message.</p>
+
+        <form>
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name"
+                   placeholder="First Name" required><br><br>
+
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name"
+                   placeholder="Last Name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"
+                   placeholder="name@example.com" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="123-456-7890"><br><br>
+
+            <label for="pet">Which pet are you interested in?</label><br>
+            <select id="pet" name="pet">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+            </select><br><br>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">
+                I would like to receive the monthly newsletter.
+            </label><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"
+                      rows="5" cols="40"
+                      placeholder="Type your message here..."></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Happy Paws Pet Adoption</p>
+        <p>123 Main Street, Mississauga, Ontario</p>
+        <p>Email: contact@happypaws.example | Phone: 905-555-0123</p>
+        <p><a href="#home">Back to top</a></p>
+    </footer>
+
+</body>
+</html>

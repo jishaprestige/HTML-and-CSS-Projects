@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450">
+<rect width="700" height="450" fill="#e8eef8"/>
+<polygon points="255,155 300,65 330,175" fill="#8f98a8"/>
+<polygon points="445,155 400,65 370,175" fill="#8f98a8"/>
+<circle cx="350" cy="225" r="120" fill="#aeb7c6"/>
+<circle cx="310" cy="215" r="14" fill="#315a3d"/>
+<circle cx="390" cy="215" r="14" fill="#315a3d"/>
+<polygon points="350,250 330,270 370,270" fill="#d58a93"/>
+<path d="M350 270 Q335 292 315 280 M350 270 Q365 292 385 280" fill="none" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+<line x1="275" y1="260" x2="185" y2="240" stroke="#555" stroke-width="5"/>
+<line x1="275" y1="280" x2="180" y2="285" stroke="#555" stroke-width="5"/>
+<line x1="425" y1="260" x2="515" y2="240" stroke="#555" stroke-width="5"/>
+<line x1="425" y1="280" x2="520" y2="285" stroke="#555" stroke-width="5"/>
+<text x="350" y="410" text-anchor="middle" font-family="Arial" font-size="34" fill="#3f4857">Playful Cat</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450">
+<rect width="700" height="450" fill="#f6e7cf"/>
+<circle cx="350" cy="220" r="120" fill="#c98f5c"/>
+<ellipse cx="250" cy="155" rx="55" ry="90" fill="#9f633b"/>
+<ellipse cx="450" cy="155" rx="55" ry="90" fill="#9f633b"/>
+<circle cx="310" cy="205" r="13" fill="#222"/>
+<circle cx="390" cy="205" r="13" fill="#222"/>
+<ellipse cx="350" cy="255" rx="30" ry="22" fill="#222"/>
+<path d="M320 290 Q350 315 380 290" fill="none" stroke="#222" stroke-width="8" stroke-linecap="round"/>
+<text x="350" y="410" text-anchor="middle" font-family="Arial" font-size="34" fill="#5a3a24">Friendly Dog</text>
+</svg>
