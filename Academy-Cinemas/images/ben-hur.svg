@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a71f"/>
+      <stop offset="100%" stop-color="#704500"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#g)"/>
+  <rect x="35" y="35" width="530" height="830" fill="none" stroke="#f5f5f5" stroke-width="12"/>
+  <text x="300" y="180" text-anchor="middle" font-family="serif"
+        font-size="56" font-weight="700" fill="#ffffff">BEN-HUR</text>
+  <text x="300" y="245" text-anchor="middle" font-family="sans-serif"
+        font-size="26" fill="#ffffff">A TALE OF REVENGE</text>
+  <circle cx="300" cy="500" r="135" fill="rgba(255,255,255,0.18)" stroke="#ffffff" stroke-width="8"/>
+  <path d="M225 590 L300 380 L375 590 Z" fill="rgba(255,255,255,0.25)" stroke="#ffffff" stroke-width="8"/>
+  <text x="300" y="785" text-anchor="middle" font-family="sans-serif"
+        font-size="26" fill="#ffffff">ACADEMY CINEMAS</text>
+</svg>

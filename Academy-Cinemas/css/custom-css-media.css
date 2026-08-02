@@ -1,0 +1,131 @@
+/* TABLETS AND SMALLER LAPTOPS */
+@media screen and (max-width: 990px) {
+
+    .navbar-collapse {
+        margin-top: 14px;
+        margin-left: -12px;
+        margin-right: -12px;
+        padding: 15px;
+        background-color: var(--secondary-color);
+        border-bottom: 5px solid rgb(98, 0, 0);
+    }
+
+    .navbar .nav-link {
+        margin-left: 20px;
+    }
+
+    .dropdown-item {
+        padding-left: 55px;
+        text-align: left;
+    }
+
+    #now-playing h1 {
+        font-size: 65px;
+    }
+
+    .movie-card .card-title {
+        font-size: 38px;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        min-height: 75px;
+    }
+
+    .navbar-brand {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .navbar .nav-link {
+        margin-left: 10px;
+        font-size: 21px;
+    }
+
+    #header-logo {
+        max-width: 500px;
+    }
+
+    #now-playing {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #now-playing h1 {
+        font-size: 52px;
+    }
+
+    .movie-row {
+        margin-bottom: 45px;
+    }
+
+    .movie-poster {
+        width: auto;
+        max-width: 350px;
+        height: auto;
+        max-height: none;
+        border-width: 7px;
+    }
+
+    .movie-card {
+        min-height: auto;
+    }
+
+    .movie-card .card-title {
+        font-size: 35px;
+    }
+
+    .movie-card .lead {
+        font-size: 16px;
+    }
+
+    #contact,
+    #tickets {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #contact h2,
+    #tickets h2 {
+        font-size: 48px;
+    }
+
+    .footer-logo {
+        font-size: 45px;
+    }
+
+    .footer-logo span {
+        font-size: 32px;
+    }
+}
+
+
+/* SMALL PHONES */
+@media screen and (max-width: 480px) {
+
+    .navbar-brand {
+        font-size: 26px;
+    }
+
+    #now-playing h1 {
+        font-size: 44px;
+    }
+
+    .movie-poster {
+        max-width: 290px;
+        border-width: 5px;
+    }
+
+    .movie-card .card-title {
+        font-size: 31px;
+    }
+
+    .academy-footer .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
